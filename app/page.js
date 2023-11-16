@@ -18,7 +18,7 @@ export default function Home() {
         <code className="mt-6 px-4 text-left text-sm font-mono text-gray-400">verbomate "create hello.txt"</code>
         <code className="mt-6 px-4 text-left text-sm font-mono text-gray-400">verbomate "append 01_, 02_, 03_ etc to all files in this directory"</code>
         <div className="mt-6 px-4">
-          <Link className="inline-block bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded" href="https://github.com/yourgithubusername/yourrepository" passHref>
+          <Link className="inline-block bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded" href="https://github.com/gordbegli/verbomate" passHref>
             View on GitHub
           </Link>
         </div>
