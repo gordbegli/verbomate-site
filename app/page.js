@@ -10,10 +10,10 @@ export default function Home() {
           </span>
         </h1>
         <h2 className="mt-6 px-4 text-left text-lg font-normal text-gray-400">
-          Generate and run python scripts from your command line.
+          Generate and run python from terminal.
         </h2>
         <code className="mt-6 px-4 text-left text-sm font-mono text-gray-400">pip install verbomate</code>
-        <code className="mt-6 px-4 text-left text-sm font-mono text-gray-400">verbomate -key <Link href="https://platform.openai.com/api-keys" target="_blank">OPEN_AI_KEY</Link></code>
+        <code className="mt-6 px-4 text-left text-sm font-mono text-gray-400">verbomate -key <Link href="https://platform.openai.com/api-keys" target="_blank">OPEN_AI_git KEY</Link></code>
         <code className="mt-6 px-4 text-left text-sm font-mono text-gray-400">verbomate "kill port 3000"</code>
         <div className="mt-6 px-4">
           <Link className="inline-block bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded" href="https://github.com/gordbegli/verbomate" target="_blank" passHref>
