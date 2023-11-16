@@ -14,7 +14,8 @@ export default function Home() {
         </h2>
         <code className="mt-6 px-4 text-left text-sm font-mono text-gray-400">pip install verbomate</code>
         <code className="mt-6 px-4 text-left text-sm font-mono text-gray-400">verbomate -key <Link href="https://platform.openai.com/api-keys" target="_blank">OPEN_AI_git KEY</Link></code>
-        <code className="mt-6 px-4 text-left text-sm font-mono text-gray-400">verbomate "kill port 3000"</code>
+        <code className="mt-6 px-4 text-left text-sm font-mono text-gray-400">verbomate "create hello_world.txt"</code>
+        
         <div className="mt-6 px-4">
           <Link className="inline-block bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded" href="https://github.com/gordbegli/verbomate" target="_blank" passHref>
             View on GitHub
