@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Command from './Command';
 import Terminal from './Terminal';
 import GitHub from './GitHub';
@@ -7,7 +6,6 @@ export default function Home() {
   return (
     <div className="flex h-screen items-center justify-center">
       <div className="flex flex-col items-center md:items-stretch w-full max-w-[50rem]"> {/* This container will encompass everything */}
-        
         {/* Main Content and Terminal Container */}
         <div className="flex flex-col md:flex-row justify-between"> 
           <main className='w-full md:w-1/2 flex flex-col min-w-fit'>
