@@ -29,7 +29,7 @@ export default function Command({ index, text }) {
             >
                 {text}
             </span>
-            {copied && <span className="text-gray-400 ml-2">Copied!</span>}
+            {copied && <span className="absolute text-gray-400 ml-2">Copied!</span>}
         </code>
     );
 }
